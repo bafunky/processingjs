@@ -14,7 +14,9 @@ void setup() {
  
  void draw(){
  if(a<300){
- point(a,a);
+ point(a,random(0,400));
  a++;
+ }else{
+ a=0;
  };
  }
