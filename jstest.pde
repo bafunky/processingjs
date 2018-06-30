@@ -5,7 +5,7 @@
    ellipse(50, 50, 25, 25);
    text("Test!",100,100);
    
-   float i=0;
+   int i=0;
    
    void draw(){
    point(i,random(0,400));
