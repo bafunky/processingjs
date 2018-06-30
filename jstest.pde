@@ -6,5 +6,14 @@
    fill(150,20,150);
    ellipse(50, 50, 25, 25);
    text("Does this\nwork?",100,100);
+  
+  int a=1;
+  
+   void draw(){
+   point(a,random(0,400));
+   a++;
+   
+   }
+
 
  }
