@@ -1,7 +1,15 @@
  void setup() {
-   size(200, 200);
-   background(200,0,0);
-   stroke(255);
+   size(400, 400);
+   background(255,0,0);
+   stroke(0,0,200);
    ellipse(50, 50, 25, 25);
-   println("hello web!");
+   text("Test!",100,100);
+   
+   float i=0;
+   
+   void draw(){
+   point(i,random(0,400));
+   i++;
+   
+   }
  }
