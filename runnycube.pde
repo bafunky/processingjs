@@ -1,7 +1,9 @@
 //change this to make the game speed different.  Default: 60
 //high numbers will be limited by hardware
 var framerate=60;
-
+void setup(){
+size(400,400);
+}
 
 var backcolor=color(random(0,255), random(0,255), random(0,255));
 var playercolor=color(255, random(0,255), random(0,255));
