@@ -13,7 +13,7 @@ void setup() {
  }
  
  void draw(){
- point(a,random(0,400));
+ point(a,a);
  a++;
  
  }
