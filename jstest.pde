@@ -13,7 +13,8 @@ void setup() {
  }
  
  void draw(){
+ if(a<300){
  point(a,a);
  a++;
- 
+ };
  }
