@@ -28,13 +28,13 @@ frameRate(framerate);
 var button=function(buttonx,buttony,Width, Height,buttonfill){
     fill(buttonfill);
     rect(buttonx,buttony,Width,Height);
- mouseClicked=function(){
+ void mouseClicked(){
             if(mouseX>(buttonx-Width/2) && mouseX<(buttonx+Width/2) && mouseY>(buttony-Height/2) && mouseY<(buttony+Height/2)){
                 started+=1;
             }
  };
 };
-draw= function() {
+void draw() {
    background(backcolor);
     //reset
     if(started===0){
